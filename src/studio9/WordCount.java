@@ -33,8 +33,9 @@ public class WordCount {
 		
 		for (String s : words) {
 			count.put(s, count.getOrDefault(s, 0) + 1);
-		return count;
 		}
+		return count;
+	}
 
 	public static void main(String[] args) {
 
